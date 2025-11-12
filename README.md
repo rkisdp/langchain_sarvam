@@ -1,5 +1,20 @@
 # langchain-sarvam
 
+## Overview
+
+### Integration details
+
+| Class | Package | Local | Serializable | [JS support](https://js.langchain.com/docs/integrations/chat/sarvam) | Downloads | Version |
+| :--- | :--- | :---: | :---: |  :---: | :---: | :---: |
+| [ChatSarvam](https://python.langchain.com/api_reference/sarvam/chat_models/langchain_sarvam.chat_models.ChatSarvam.html) | [langchain-sarvam](https://python.langchain.com/api_reference/sarvam/index.html) | ❌ | beta | ❌ | ![PyPI - Downloads](https://img.shields.io/pypi/dm/langchain-sarvam?style=flat-square&label=%20) | ![PyPI - Version](https://img.shields.io/pypi/v/langchain-sarvam?style=flat-square&label=%20) |
+
+### Model features
+
+| [Tool calling](/oss/langchain/tools) | [Structured output](/oss/langchain/structured-output) | JSON mode | [Image input](/oss/langchain/messages#multimodal) | Audio input | Video input | [Token-level streaming](/oss/langchain/streaming#llm-tokens) | Native async | [Token usage](/oss/langchain/models#token-usage) | [Logprobs](/oss/langchain/models#log-probabilities) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
+
+
 Integration package connecting Sarvam AI chat completions with LangChain.
 
 ## Installation
