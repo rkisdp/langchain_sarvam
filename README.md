@@ -23,7 +23,7 @@ Integration package connecting Sarvam AI chat completions with LangChain.
 with `uv` inside the package:
 
 ```bash
-uv pip install langchain-sarvam
+uv add langchain-sarvam
 ```
 
 ## Setup
